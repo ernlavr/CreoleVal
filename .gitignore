@@ -14,6 +14,7 @@ backup
 *download_glue_data.py
 
 nlu/relation_classification/model/
+nlu/relation_classification/pretrained_weights/
 nlu/relation_classification/output/
 nlu/relation_classification/src/ZS_BERT/saved_models/
 
