@@ -33,7 +33,7 @@ parser.add_argument("-re", "--relation_emb", type=int, default=1024, dest="relat
 parser.add_argument("-cr", "--Creole", nargs="*", default=None, help="Creole list",dest="cr")
 parser.add_argument("--Wiki_ZSL_data", type=str, default="ZS_BERT/Wiki-ZSL", help="Wiki-ZSL data file")
 parser.add_argument("--Creole_data", type=str, default="../data/relation_extraction", help="Creole RE data file")
-parser.add_argument("--model_saves", type=str, default="saved_models", help="model save dir")
+parser.add_argument("--model_saves", type=str, default="save_models", help="model save dir")
 parser.add_argument("--prop_list_path", type=str, default="src/ZS_BERT/resources/property_list.html", help="model save dir")
 
 args = parser.parse_args()
